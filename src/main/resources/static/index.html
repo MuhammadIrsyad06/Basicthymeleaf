@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Masukkan Data</h1>
+        <hr/>
+        <form action="/home" enctype="multipart/form-data" method="post">
+            Nama Lengkap: <input type="text" name="inputnama"/><br><br><!-- comment -->
+            Tanggal Lahir: <input type="date" name="inputtanggal"/><br><br><!-- comment -->
+            Masukkan Foto: <input type="file" name="inputgambar" accept="image/jpeg,image/png"/><br><br><!-- comment -->
+            <input type="submit" name="Enter"/>
+            
+        </form>
+    </body>
+</html>
